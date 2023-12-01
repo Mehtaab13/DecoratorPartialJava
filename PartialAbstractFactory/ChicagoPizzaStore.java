@@ -1,9 +1,9 @@
-public class ChigagoPizzaStore extends PizzaStore{
+public class ChicagoPizzaStore extends PizzaStore{
 
     protected Pizza createPizza(String item) {
         Pizza pizza = null;
         PizzaIngredientFactory ingredientFactory =
-                new ChigagoPizzaIngredientFactory();
+                new ChicagoPizzaIngredientFactory();
 
         if (item.equals("cheese")) {
 
